@@ -1,0 +1,138 @@
+.navbar img{
+    width:70px;
+    height:50px;
+}
+.header-part img{
+    max-width: 300px;
+    max-height:300px;
+}
+ h1,h3{
+font-family:  fantasy;
+}
+.nav-button{
+    border-radius: 10px 0 10px 0;
+    background-image: linear-gradient(to right, rgb(95, 228, 195) , rgb(10, 224, 224));
+    border:none;
+    padding:6px 12px;
+    color :white;
+}
+.what-we{
+    background-color: rgb(244, 255, 252);
+    
+   
+}
+.what-we-header p{
+    font-size: small;
+}
+
+.service-card{
+   background-color: none;
+   
+    
+}
+.service-card img{
+    width:50px;
+    height:50px;
+}
+.service-card:hover{
+    background-color: white;
+    border-radius: 60px 0 60px 0;
+    max-width:250px;
+    padding:5px;
+    box-shadow: 15px 15px 20px rgb(223, 220, 220);
+   cursor:pointer;
+
+}
+.stay img{
+    max-width: 300px;
+    max-height:300px;
+}
+.stay p{
+    font-size: 10px;
+}
+#achievement{
+    background-color: rgb(232, 252, 246);
+}
+#achievement p{
+   
+    font-size: 10px;
+}
+.happy{
+
+    width:200px;
+    height:130px;
+    background-color:white;
+    border-radius: 0px 70px;
+   
+    
+}
+
+.happy-img img{
+    width:50px;
+}
+.projects{
+
+    width:200px;
+    height:130px;
+    background-color:white;
+    border-radius: 70px 0px;
+    
+}
+.project-img img{
+    width:50px;
+}
+.crazy{
+
+    width:200px;
+    height:130px;
+    background-color:white;
+    border-radius: 70px 0px;
+}
+.crazy-img img{
+    width:50px;
+}
+.running{
+
+    width:200px;
+    height:130px;
+    background-color:white;
+    border-radius: 0px 70px;
+   
+}
+.running-img img{
+    width:50px;
+}
+#contact {
+    background-color: rgb(232, 252, 246);
+}
+#button-addon2{
+     background-image: linear-gradient(to right, rgb(95, 228, 195) , rgb(10, 224, 224));
+}
+
+#footer img{
+    width:100px;
+    height:90px;
+}
+#footer p{
+    font-size:10px;
+}
+#footer{
+    background-color: rgb(232, 252, 246);
+}
+#footer-img img{
+    width:20px;
+    height:20px;
+   
+   
+   
+}
+@media screen and (max-width:760px){ /* 0 to 280 */
+    .header-part img{
+       margin-top: 12px;
+    }
+}
+@media screen and (max-width:768px){ /* 0 to 280 */
+    .service-card{
+       margin-top: 15px;
+    }
+}
